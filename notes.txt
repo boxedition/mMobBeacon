@@ -1,0 +1,8 @@
+Filtrar linhas vazias:
+^\s*$\n
+Filtrar data:
+^\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}:\d{3}$
+
+Beacon filter
+02010612FF3906
+0000000000FFFF
