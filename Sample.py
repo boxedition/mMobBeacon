@@ -48,7 +48,7 @@ def handle_disconnection():
 
 # Timer function to disconnect after 15 seconds
 def disconnect_after_15_seconds():
-    threading.Timer(15.0, handle_disconnection).start()
+    threading.Timer(10.0, handle_disconnection).start()
 
 # Start the timer
 disconnect_after_15_seconds()
